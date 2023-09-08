@@ -23,7 +23,7 @@ app.get('/api', (req, res) => {
     current_day: new Date().toLocaleString('en-US', { weekday: 'long'}),
     utc_time: utc_time,
     track,
-    github_file_url: "https://github.com/udee101/cohortX_1/index.js",
+    github_file_url: "https://github.com/udee101/cohortX_1/blob/main/index.js",
     github_repo_url: "https://github.com/udee101/cohortX_1",
     status_code: 200
   }
